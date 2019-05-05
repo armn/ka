@@ -1,11 +1,10 @@
 ---
 templateKey: index-page
 title: 'Kā.lv — uzzini, kā!'
-image: /img/black-color-paint-8614.jpg
+image: /img/hand-paint-paint-roller-1669754.jpg
 heading: >-
-  Šeit vari iemācīties, kā izveidot savu mājaslapu, kā uzturēt mājaslapu, kā
-  izmantot savu domēnvārdu e-pastiem, kā iegādāties kriptovalūtas un daudz ko
-  citu.
+  Šeit vari iemācīties, kā izveidot savu mājaslapu, kā to uzturēt, kā iegādāties
+  kriptovalūtas un daudz ko citu.
 subheading: Noderīgas pamācības ikvienam
 mainpitch:
   title: Kas ir Kā.lv?
