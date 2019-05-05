@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: #00b666;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: #000;
+        stroke-linejoin: round;
+        stroke-width: 16px;
+        fill-rule: evenodd;
+        filter: url(#filter-2);
+      }
+    </style>
+    <filter id="filter" x="136" y="135.875" width="728" height="727.563" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#ff3f00"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="245.219" y="34.531" width="522.781" height="944.469" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="12.728" dy="12.728" in="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood result="flood"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feFlood result="flood-2" flood-color="#fff"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in2="blend"/>
+    </filter>
+  </defs>
+  <circle id="Ellipse_1_copy" data-name="Ellipse 1 copy" class="cls-1" cx="500" cy="499.656" r="364"/>
+  <g style="fill: #fff; filter: url(#filter-2)">
+    <path id="_" data-name="?" class="cls-2" d="M569.753,639.358q-4.023-40.233,8.047-71.749a251.733,251.733,0,0,1,32.857-59.679,572.182,572.182,0,0,1,45.6-54.315q24.8-26.151,46.938-54.315a292.131,292.131,0,0,0,36.881-61.02q14.742-32.847,14.752-74.431,0-59-19.446-102.595-19.457-43.564-53.644-71.749-34.2-28.163-80.467-41.574Q555,34.541,501.357,34.52q-79.146,0-144.169,33.528A366.5,366.5,0,0,0,245.206,156.56L353.835,255.8q26.813-26.811,55.656-44.256,28.824-17.413,66.385-17.435,40.233,0,65.043,21.458T565.73,278.6q0,25.491-14.082,48.95a349.372,349.372,0,0,1-35.539,48.28q-21.468,24.831-44.927,51.633a380.06,380.06,0,0,0-42.245,59.008A282.706,282.706,0,0,0,400.1,556.21q-10.057,37.561-3.352,83.148h173Zm-2.011,290.35q34.2-35.519,34.2-87.842,0-53.624-34.2-89.184-34.2-35.518-85.161-35.539-50.982,0-84.489,35.539-33.538,35.55-33.528,89.184,0,52.3,33.528,87.842,33.505,35.519,84.489,35.539Q533.533,965.247,567.742,929.708Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#_" style="stroke: #000; filter: none; fill: none"/>
+</svg>
