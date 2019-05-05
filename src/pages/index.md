@@ -10,8 +10,8 @@ subheading: Noderīgas pamācības ikvienam
 mainpitch:
   title: Kas ir Kā.lv?
   description: >
-    Kā.lv ir vietne dažāda veida rakstiem, pamācībām un instrukcijām,
-    galvenokārt informācijas tehnoloģiju jomā. 
+    Kā.lv ir vietne dažāda veida pamācībām un instrukcijām, galvenokārt
+    informācijas tehnoloģiju jomā. 
 description: 'Ja vēlies publicēt rakstu, sazinies ar Kā.lv sadaļā "Kontakti".'
 intro:
   blurbs:
