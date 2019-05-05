@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: 'KĀ.LV — uzzini, kā!'
+title: 'Kā.lv — uzzini, kā!'
 image: /img/background-carpentry-construction-268976.jpg
 heading: Great coffee with a conscience
-subheading: Bezmaksas pamācības ikvienam
+subheading: Noderīgas pamācības ikvienam
 mainpitch:
   title: Kas ir Kā.lv?
   description: >
