@@ -25,7 +25,7 @@ export const IndexPageTemplate = ({
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
         borderTop: `2px solid black`,
-        borderBottom: `2px soldi black`
+        borderBottom: `2px solid black`
       }}
     >
       <div
