@@ -83,17 +83,23 @@ $black: #2b2523
 .margin-top-0
   margin-top: 0 !important
 
+.navbar
+  border-bottom: 2px solid black
+
 .navbar-item .icon
   color: $primary
 .navbar-menu a.navbar-item
   color: black
   font-family: "Source Sans Pro", "Open Sans", sans-serif
   font-weight: 600
+  font-size: 1.4rem
+  padding: 15px 20px
   transition: all 0.15s ease-in-out
+  border-bottom: 4px solid transparent
 
 .navbar-menu a.navbar-item:hover, a.navbar-item.is-active, .navbar a.navbar-item[aria-current]
   color: $primary
-  border-bottom: 4px solid black
+  border-bottom: 4px solid $primary
 
 // Override for use of svg's from https://simpleicons.org/
 .icon svg
@@ -103,10 +109,53 @@ $black: #2b2523
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
 .navbar-brand .navbar-item img
-  max-height: 44px
+  max-height: 70px
 footer.footer
-  padding: 3rem 0rem 0rem
-  background-color: transparent
+  background: rgba(43, 37, 35, 0.1)
+  border-top: 2px solid black
+  margin-top: auto
+  padding: 3rem 0rem 1rem
+  //background-color: transparent
+
+.navbar-burger
+  height: 86px
+  width: 100px
+.navbar-burger span
+  height: 2px
+
+
+// Full height
+body noscript + div > div > div
+  min-height: 100vh
+  display: flex
+  flex-direction: column
+
+
+.label
+  color: black
+  font-size: 1.25rem
+  font-family: "Source Sans Pro", "Open Sans", sans-serif
+  margin-bottom: 0 !important
+  font-weight: 600
+
+.input, .textarea
+  border-radius: 0
+  border: 2px solid black
+  box-shadow: none
+  transition: all 0.15s ease-in-out
+  &:focus, &:hover, &:active
+    border-color: $primary
+    outline: none
+    box-shadow: none
+
+
+// Content override
+.content h1
+  color: black
+  font-weight: 900
+
+.content h1, .content h2, .content h3, .content h4
+  color: black
 
 //Menu overrides
 $menu-item-color: $white-ter
@@ -117,12 +166,7 @@ $menu-item-active-background-color:	$ka-orange-invert
 $menu-list-border-left: 1px solid $ka-orange-invert
 $menu-label-color: $white-ter
 
-.content h1
-  color: black
-  font-weight: 900
 
-.content h1, .content h2, .content h3, .content h4
-  color: black
 
 .menu-label
   font-size: 1em !important
@@ -167,6 +211,8 @@ $menu-label-color: $white-ter
   margin-bottom: 5px
 
 
+.notification
+  padding: 1.25rem 1.5rem
 // responsiveness
 +tablet-only
   .blog-list-item header
@@ -175,6 +221,8 @@ $menu-label-color: $white-ter
     flex-basis: 50%
 
 +mobile
+  .navbar a.navbar-item[aria-current]
+    border-bottom: none
   .blog-list-item header
     display: block
   .blog-list-item .featured-thumbnail
