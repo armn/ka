@@ -62,6 +62,22 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Source Sans Pro`,
+            subsets: [`latin-ext`],
+            variants: [`400`, `600`, `900`]
+          },
+          {
+            family: `Open Sans`,
+            variants: [`400`, `900`]
+          },
+        ],
+      },
+    },
+    {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
