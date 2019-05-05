@@ -79,20 +79,18 @@ export const IndexPageTemplate = ({
                   <div className="tile">
                     <h3 className="subtitle">{mainpitch.description}</h3>
                   </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold">
+                  <div>
+                    <h4 className="has-text-weight-semibold">
                       {heading}
-                    </h3>
+                    </h4>
                     <p>{description}</p>
                   </div>
                 </div>
                 <div className="columns">
                 <div className="column is-12">
-                  <h3 className="has-text-weight-semibold">
+                  <h2 className="has-text-weight-semibold">
                     Jaunākās pamācības
-                  </h3>
+                  </h2>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/blog">
