@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="200" viewBox="0 0 600 200">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: #00b666;
+        filter: url(#filter);
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #000;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-3 {
+        stroke-width: 5px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke-width: 6px;
+        filter: url(#filter-2);
+      }
+
+      .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #ff3f00;
+        filter: url(#filter-3);
+      }
+    </style>
+    <filter id="filter" x="429" y="28" width="144" height="145" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#ff3f00"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="454.094" y="15" width="99.906" height="177" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="6.364" dy="6.364" in="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood result="flood"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feFlood result="flood-2" flood-color="#fff"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in2="blend"/>
+    </filter>
+    <filter id="filter-3" x="28.313" y="12.25" width="400.688" height="161.75" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="6.364" dy="6.364" in="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood result="flood"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g style="fill: #00b666; filter: url(#filter)">
+    <circle id="Ellipse_1_copy" data-name="Ellipse 1 copy" class="cls-1" cx="501" cy="100.453" r="67" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#Ellipse_1_copy" style="stroke: #000; filter: none; fill: none"/>
+  <g style="fill: #fff; filter: url(#filter-2)">
+    <path id="_" data-name="?" class="cls-2" d="M513.839,126.124a28.5,28.5,0,0,1,1.481-13.182,46.232,46.232,0,0,1,6.048-10.965A105.264,105.264,0,0,1,529.761,92q4.564-4.8,8.64-9.979a53.634,53.634,0,0,0,6.788-11.211,33.005,33.005,0,0,0,2.716-13.675,45.916,45.916,0,0,0-3.58-18.85A35.524,35.524,0,0,0,534.451,25.1a40.937,40.937,0,0,0-14.811-7.638A66.022,66.022,0,0,0,501.25,15a57.158,57.158,0,0,0-26.537,6.16A67.446,67.446,0,0,0,454.1,37.42l20,18.234a54.241,54.241,0,0,1,10.244-8.131,23.2,23.2,0,0,1,12.22-3.2q7.406,0,11.972,3.942T513.1,59.843a17.2,17.2,0,0,1-2.592,8.994,64.192,64.192,0,0,1-6.542,8.87q-3.951,4.562-8.269,9.486a69.732,69.732,0,0,0-7.776,10.842,51.9,51.9,0,0,0-5.308,12.812A37.483,37.483,0,0,0,482,126.124h31.844Zm-0.37,53.346a22.352,22.352,0,0,0,6.295-16.139,22.674,22.674,0,0,0-6.295-16.386,20.9,20.9,0,0,0-15.675-6.53,20.5,20.5,0,0,0-15.552,6.53,22.92,22.92,0,0,0-6.171,16.386,22.591,22.591,0,0,0,6.171,16.139A20.5,20.5,0,0,0,497.794,186,20.9,20.9,0,0,0,513.469,179.47Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#_" style="stroke: #000; filter: none; fill: none"/>
+  <g style="fill: #ff3f00; filter: url(#filter-3)">
+    <path id="KĀ.Lv_copy" data-name="KĀ.Lv copy" class="cls-3" d="M65.266,166.326V136.242l9.025-11.175,24.068,41.259h39.11L95.351,99.71,130.593,52H91.053L66.125,89.4H65.266V52H28.3V166.326H65.266ZM183.778,96.379q1.824-9.776,3.546-17.943h0.859q2.147,8.169,3.976,17.944t3.546,17.514l1.289,6.017H178.943l1.289-6.017Q181.95,106.156,183.778,96.379Zm-15.365,69.947,4.513-20.2h30.085l4.513,20.2H246.2L210.747,52H166.479L131.022,166.326h37.391ZM221.707,35.457V12.249H153.8V35.457h67.906Zm53.276,128.47a14.9,14.9,0,0,0,0-19.731,13.516,13.516,0,0,0-19.2,0,14.9,14.9,0,0,0,0,19.731A13.519,13.519,0,0,0,274.983,163.927Zm70.924,2.4V147.662H319.244V95.4H296.313v70.925h49.594Zm55.193,0,21.064-66.658H400.3l-7.2,29.063q-2.4,10-4.8,20.8h-0.533q-2.4-10.8-4.8-20.8l-7.2-29.063H352.839L374.7,166.326h26.4Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#KĀ.Lv_copy" style="stroke: #000; filter: none; fill: none"/>
+</svg>
