@@ -9,6 +9,8 @@ $primary-invert: $ka-orange-invert
 $body-color: #333
 $black: #2b2523
 
+@import "~bulma"
+
 .navbar .navbar-menu
   box-shadow: none !important
 
@@ -50,28 +52,49 @@ $black: #2b2523
     justify-content: center
     align-items: center
 
-.btn
+.btn, .button
     display: inline-block
     padding: 12px 16px 10px
     font-size: 18px
     font-size: 1rem
     line-height: 1.25
     background-color: #fff
-    border-radius: .25rem
+    border-radius: 0
     text-decoration: none
     font-weight: 700
     color: $primary
+    border: 2px solid $primary
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px $primary
-    box-shadow: inset 0 0 0 2px $primary
-    -webkit-transition: all .15s ease
-    transition: all .15s ease
+    -webkit-box-shadow: 2px 2px 0 $primary
+    box-shadow: 2px 2px 0 $primary
+    -webkit-transition: all .15s ease-in-out
+    transition: all .15s ease-in-out
+    height: auto
+    &:hover, &:focus, &:active
+      background: $primary
+      color: white
+      box-shadow: 4px 4px 0 black
+      border: 2px solid black
+      outline: none
+
+.is-featured .button
+  border-color: black
 
 .margin-top-0
   margin-top: 0 !important
 
 .navbar-item .icon
   color: $primary
+.navbar-menu a.navbar-item
+  color: black
+  font-family: "Source Sans Pro", "Open Sans", sans-serif
+  font-weight: 600
+  transition: all 0.15s ease-in-out
+
+.navbar-menu a.navbar-item:hover, a.navbar-item.is-active, .navbar a.navbar-item[aria-current]
+  color: $primary
+  border-bottom: 4px solid black
+
 // Override for use of svg's from https://simpleicons.org/
 .icon svg
   width: 1.5rem
@@ -79,6 +102,8 @@ $black: #2b2523
   fill: currentColor
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
+.navbar-brand .navbar-item img
+  max-height: 44px
 footer.footer
   padding: 3rem 0rem 0rem
   background-color: transparent
@@ -92,6 +117,12 @@ $menu-item-active-background-color:	$ka-orange-invert
 $menu-list-border-left: 1px solid $ka-orange-invert
 $menu-label-color: $white-ter
 
+.content h1
+  color: black
+  font-weight: 900
+
+.content h1, .content h2, .content h3, .content h4
+  color: black
 
 .menu-label
   font-size: 1em !important
@@ -113,30 +144,43 @@ $menu-label-color: $white-ter
 
 // blog roll
 .blog-list-item.is-featured
-  background-color: #d6400033;
+  background-color: $primary
+  color: black
 .blog-list-item header
-  display: flex;
-  margin-bottom: 1em;
+  display: flex
+  margin-bottom: 1em
 .blog-list-item .featured-thumbnail
-  flex-basis: 35%;
-  margin: 0 1.5em 0 0;
+  flex-basis: 35%
+  margin: 0 1.5em 0 0
 
+// boxes
+.box
+  border-radius: 0
+  border: 2px solid black
+  box-shadow: 4px 4px 0 $primary
 
-@import "~bulma"
+// blog images
+.blog-list-item .featured-thumbnail > div
+  border-radius: 0 !important
+  border: 2px solid black
+  box-shadow: 2px 2px 0 $primary
+  margin-bottom: 5px
 
 
 // responsiveness
 +tablet-only
+  .blog-list-item header
+    display: block
   .blog-list-item .featured-thumbnail
-    flex-basis: 50%;
+    flex-basis: 50%
 
 +mobile
   .blog-list-item header
     display: block
   .blog-list-item .featured-thumbnail
-    text-align: center;
-    max-width: 70%;
-    margin: 0 0 1em;
+    text-align: center
+    //max-width: 70%
+    margin: 0 0 1em
 
 
 body, html

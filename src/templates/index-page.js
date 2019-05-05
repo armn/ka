@@ -24,6 +24,8 @@ export const IndexPageTemplate = ({
         })`,
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
+        borderTop: `2px solid black`,
+        borderBottom: `2px soldi black`
       }}
     >
       <div
@@ -40,11 +42,12 @@ export const IndexPageTemplate = ({
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
             boxShadow:
-              '#ff3f00 0.5rem 0px 0px, #ff3f00 -0.5rem 0px 0px',
+              'rgb(255, 63, 0) 5px -5px 0px, rgb(255, 63, 0) 5px 5px 0px, rgb(255, 63, 0) -5px -5px 0px, rgb(255, 63, 0) -5px 5px 0px',
             backgroundColor: '#ff3f00',
             color: 'black',
             lineHeight: '1',
             padding: '0.25em',
+            border: '4px solid black'
           }}
         >
           {title}
@@ -52,13 +55,12 @@ export const IndexPageTemplate = ({
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
-            boxShadow:
-              '#72b0c0 0.5rem 0px 0px, #72b0c0 -0.5rem 0px 0px',
             backgroundColor: '#72b0c0',
             color: 'black',
             lineHeight: '1',
-            padding: '0.25em',
-            textAlign: 'center'
+            padding: '6px 14px',
+            textAlign: 'center',
+            border: '3px solid black',
           }}
         >
           {subheading}
@@ -97,12 +99,12 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold">
-                    Jaunākie raksti
+                    Jaunākās pamācības
                   </h3>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/blog">
-                      Lasīt vairāk
+                      Visi raksti
                     </Link>
                   </div>
                 </div>

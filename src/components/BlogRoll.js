@@ -33,13 +33,12 @@ class BlogRoll extends React.Component {
                   ) : null}
                   <p className="post-meta">
                     <Link
-                      className="title has-text-primary is-size-4"
+                      className="title is-size-4"
                       to={post.fields.slug}
                     >
                       {post.frontmatter.title}
                     </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
+                    <span className="post-date is-block">
                       {post.frontmatter.date}
                     </span>
                   </p>
@@ -49,7 +48,7 @@ class BlogRoll extends React.Component {
                   <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
+                    Lasīt vairāk
                   </Link>
                 </p>
               </article>
@@ -86,7 +85,7 @@ export default () => (
               frontmatter {
                 title
                 templateKey
-                date(formatString: "MMMM DD, YYYY")
+                date(formatString: "DD.MM.YYYY")
                 featuredpost
                 featuredimage {
                   childImageSharp {

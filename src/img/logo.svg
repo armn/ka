@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="200" viewBox="0 0 600 200">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="385" height="177" viewBox="0 0 385 177">
   <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -58,12 +58,17 @@
         filter: url(#filter-3);
       }
     </style>
-    <filter id="filter" x="449" y="28" width="144" height="145" filterUnits="userSpaceOnUse">
-      <feFlood result="flood" flood-color="#ff3f00"/>
-      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
-      <feBlend result="blend" in2="SourceGraphic"/>
+    <filter id="filter" x="241" y="21" width="135" height="136" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="4.95" dy="4.95" in="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood result="flood"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feFlood result="flood-2" flood-color="#ff3f00"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in2="blend"/>
     </filter>
-    <filter id="filter-2" x="474.094" y="15" width="99.906" height="177" filterUnits="userSpaceOnUse">
+    <filter id="filter-2" x="264.75" y="9" width="94.25" height="166" filterUnits="userSpaceOnUse">
       <feOffset result="offset" dx="6.364" dy="6.364" in="SourceAlpha"/>
       <feGaussianBlur result="blur"/>
       <feFlood result="flood"/>
@@ -73,7 +78,7 @@
       <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
       <feBlend result="blend-2" in2="blend"/>
     </filter>
-    <filter id="filter-3" x="8.313" y="12.25" width="400.688" height="161.75" filterUnits="userSpaceOnUse">
+    <filter id="filter-3" x="5.219" y="1.75" width="217.781" height="158.25" filterUnits="userSpaceOnUse">
       <feOffset result="offset" dx="6.364" dy="6.364" in="SourceAlpha"/>
       <feGaussianBlur result="blur"/>
       <feFlood result="flood"/>
@@ -82,15 +87,15 @@
     </filter>
   </defs>
   <g style="fill: #00b666; filter: url(#filter)">
-    <circle id="Ellipse_1_copy" data-name="Ellipse 1 copy" class="cls-1" cx="521" cy="100.453" r="67" style="stroke: inherit; filter: none; fill: inherit"/>
+    <circle id="Ellipse_1_copy" data-name="Ellipse 1 copy" class="cls-1" cx="308.5" cy="88.953" r="62.5" style="stroke: inherit; filter: none; fill: inherit"/>
   </g>
   <use xlink:href="#Ellipse_1_copy" style="stroke: #000; filter: none; fill: none"/>
   <g style="fill: #fff; filter: url(#filter-2)">
-    <path id="_" data-name="?" class="cls-2" d="M533.839,126.124a28.5,28.5,0,0,1,1.481-13.182,46.232,46.232,0,0,1,6.048-10.965A105.264,105.264,0,0,1,549.761,92q4.564-4.8,8.64-9.979a53.634,53.634,0,0,0,6.788-11.211,33.005,33.005,0,0,0,2.716-13.675,45.916,45.916,0,0,0-3.58-18.85A35.524,35.524,0,0,0,554.451,25.1a40.937,40.937,0,0,0-14.811-7.638A66.022,66.022,0,0,0,521.25,15a57.158,57.158,0,0,0-26.537,6.16A67.446,67.446,0,0,0,474.1,37.42l20,18.234a54.241,54.241,0,0,1,10.244-8.131,23.2,23.2,0,0,1,12.22-3.2q7.406,0,11.972,3.942T533.1,59.843a17.2,17.2,0,0,1-2.592,8.994,64.192,64.192,0,0,1-6.542,8.87q-3.951,4.562-8.269,9.486a69.732,69.732,0,0,0-7.776,10.842,51.9,51.9,0,0,0-5.308,12.812A37.483,37.483,0,0,0,502,126.124h31.844Zm-0.37,53.346a22.352,22.352,0,0,0,6.295-16.139,22.674,22.674,0,0,0-6.295-16.386,20.9,20.9,0,0,0-15.675-6.53,20.5,20.5,0,0,0-15.552,6.53,22.92,22.92,0,0,0-6.171,16.386,22.591,22.591,0,0,0,6.171,16.139A20.5,20.5,0,0,0,517.794,186,20.9,20.9,0,0,0,533.469,179.47Z" style="stroke: inherit; filter: none; fill: inherit"/>
+    <path id="_" data-name="?" class="cls-2" d="M320.477,112.976a26.75,26.75,0,0,1,1.381-12.334,43.289,43.289,0,0,1,5.642-10.26,98.344,98.344,0,0,1,7.829-9.337q4.258-4.5,8.06-9.337a50.226,50.226,0,0,0,6.332-10.49,30.955,30.955,0,0,0,2.533-12.8,43.075,43.075,0,0,0-3.339-17.637,33.244,33.244,0,0,0-9.21-12.334A38.154,38.154,0,0,0,325.888,11.3,61.415,61.415,0,0,0,308.733,9a53.185,53.185,0,0,0-24.754,5.764,62.944,62.944,0,0,0-19.228,15.216L283.4,47.039a50.6,50.6,0,0,1,9.556-7.608,21.591,21.591,0,0,1,11.4-3q6.908,0,11.168,3.689t4.26,10.836a16.129,16.129,0,0,1-2.418,8.415,60.063,60.063,0,0,1-6.1,8.3q-3.685,4.269-7.714,8.876A65.313,65.313,0,0,0,296.3,86.693a48.677,48.677,0,0,0-4.951,11.989,35.171,35.171,0,0,0-.575,14.294h29.7Zm-0.346,49.914a20.945,20.945,0,0,0,5.872-15.1,21.249,21.249,0,0,0-5.872-15.332,19.463,19.463,0,0,0-14.622-6.109A19.088,19.088,0,0,0,291,132.457a21.482,21.482,0,0,0-5.757,15.332A21.172,21.172,0,0,0,291,162.89,19.085,19.085,0,0,0,305.509,169,19.46,19.46,0,0,0,320.131,162.89Z" style="stroke: inherit; filter: none; fill: inherit"/>
   </g>
   <use xlink:href="#_" style="stroke: #000; filter: none; fill: none"/>
   <g style="fill: #ff3f00; filter: url(#filter-3)">
-    <path id="KĀ.Lv_copy" data-name="KĀ.Lv copy" class="cls-3" d="M45.266,166.326V136.242l9.025-11.175,24.068,41.259h39.11L75.351,99.71,110.593,52H71.053L46.125,89.4h-0.86V52H8.3V166.326H45.266ZM163.778,96.379q1.824-9.776,3.546-17.943h0.859q2.147,8.169,3.976,17.944t3.546,17.514l1.289,6.017H158.943l1.289-6.017Q161.95,106.156,163.778,96.379Zm-15.365,69.947,4.513-20.2h30.085l4.513,20.2H226.2L190.747,52H146.479L111.022,166.326h37.391ZM201.707,35.457V12.249H133.8V35.457h67.906Zm53.276,128.47a14.9,14.9,0,0,0,0-19.731,13.516,13.516,0,0,0-19.2,0,14.9,14.9,0,0,0,0,19.731A13.519,13.519,0,0,0,254.983,163.927Zm70.924,2.4V147.662H299.244V95.4H276.313v70.925h49.594Zm55.193,0,21.064-66.658H380.3l-7.2,29.063q-2.4,10-4.8,20.8h-0.533q-2.4-10.8-4.8-20.8l-7.2-29.063H332.839L354.7,166.326h26.4Z" style="stroke: inherit; filter: none; fill: inherit"/>
+    <path id="kā" class="cls-3" d="M41.317,151.326V125.539l11.174-12.463,21.489,38.25h39.97l-40.4-62.748L111.8,43.88H71.832L42.177,81.272h-0.86V1.761H5.215V151.326h36.1Zm127.753-.967a60.092,60.092,0,0,0,13.646-9.347h0.859l2.579,10.314h30.085V91.586q0-26.432-11.926-38.358T171.542,41.3a80.407,80.407,0,0,0-24.283,3.653,106.349,106.349,0,0,0-22.994,10.53l12.894,24.068a105.736,105.736,0,0,1,14.827-6.769,37.1,37.1,0,0,1,12.249-2.256q13.75,0,15.043,11.175-30.945,3.223-44.7,12.786t-13.753,26.325a37.36,37.36,0,0,0,2.149,12.678,30.179,30.179,0,0,0,6.339,10.53,30.926,30.926,0,0,0,10.208,7.2,32.858,32.858,0,0,0,13.538,2.686A35.744,35.744,0,0,0,169.07,150.359Zm-13-32.556q0-4.512,4.943-8.381t18.266-5.8v14.613a38.664,38.664,0,0,1-5.91,5.265,12.573,12.573,0,0,1-7.414,2.041q-9.887,0-9.885-7.736h0Zm50.07-92.833V1.761H139.952V24.97h66.187Z" style="stroke: inherit; filter: none; fill: inherit"/>
   </g>
-  <use xlink:href="#KĀ.Lv_copy" style="stroke: #000; filter: none; fill: none"/>
+  <use xlink:href="#kā" style="stroke: #000; filter: none; fill: none"/>
 </svg>

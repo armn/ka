@@ -2,7 +2,7 @@ var proxy = require('http-proxy-middleware')
 
 module.exports = {
   siteMetadata: {
-    title: 'Kā.lv — uzzini, kā!',
+    title: 'kā.lv — uzzini, kā!',
     description:
       'Kā.lv piedāvā bezmaksas pamācības un instrukcijas ikvienam.',
   },
