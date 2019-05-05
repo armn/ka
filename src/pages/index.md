@@ -2,20 +2,17 @@
 templateKey: index-page
 title: 'Kā.lv — uzzini, kā!'
 image: /img/background-carpentry-construction-268976.jpg
-heading: Great coffee with a conscience
+heading: >-
+  Šeit vari iemācīties, kā izveidot savu mājaslapu, kā uzturēt mājaslapu, kā
+  izmantot savu domēnvārdu e-pastiem, kā iegādāties kriptovalūtas un daudz ko
+  citu.
 subheading: Noderīgas pamācības ikvienam
 mainpitch:
   title: Kas ir Kā.lv?
   description: >
-    KĀ.lv ir vietne dažāda veida pamācībām un instrukcijām, galvenokārt
-    informācijas tehnoloģiju jomā. Šeit vari iemācīties, kā izveidot savu
-    mājaslapu, kā to uzturēt, kā izmantot savu domēnvārdu e-pastiem, kā
-    iegādāties kriptovalūtas un daudz ko citu.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+    Kā.lv ir vietne dažāda veida rakstiem, pamācībām un instrukcijām,
+    galvenokārt informācijas tehnoloģiju jomā. 
+description: 'Ja vēlies publicēt rakstu, sazinies ar Kā.lv sadaļā "Kontakti".'
 intro:
   blurbs:
     - image: /img/coffee.png
