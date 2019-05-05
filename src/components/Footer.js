@@ -17,7 +17,7 @@ const Footer = class extends React.Component {
               src={logo}
               alt="kā.lv"
               rel="noopener"
-              style={{ width: '14em', height: '10em' }}
+              style={{ width: '14em', height: 'auto', boxShadow: '8px 8px 0 black', marginBottom: '10px' }}
             />
           </a>
           <p>
