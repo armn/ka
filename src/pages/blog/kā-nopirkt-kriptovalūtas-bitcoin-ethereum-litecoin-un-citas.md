@@ -3,7 +3,7 @@ templateKey: blog-post
 title: 'Kā nopirkt kriptovalūtas - Bitcoin, Ethereum, Litecoin un citas?'
 date: 2019-05-05T20:29:18.937Z
 description: Šajā rakstā aplūkota kriptovalūtas iegāde Coinbase platformā.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/computer-hands-laptop-2115217.jpg
 tags:
   - kriptovalūtas
