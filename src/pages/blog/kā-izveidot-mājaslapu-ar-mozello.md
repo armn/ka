@@ -11,8 +11,6 @@ tags:
   - Mozello
   - apskats
 ---
-Izveido bezmaksas mājaslapu vai interneta veikalu ar Mozello!
-
 Mozello ir 2013. gadā Latvijā radīts mājaslapu un interneta veikalu izveides rīks. Mozello ir ideāli pielāgots mobilajām ierīcēm un ļauj veidot un administrēt mājaslapu arī no telefona. Mozello ir pieejams vairāk nekā 15 valodās un var lepoties ar vairāk nekā 20 tūkstošu klientu. Veidot mājaslapas un interneta veikalus ar Mozello ir ātri un vienkārši — izmantojot Mozello veidotās dizaina sagataves, šis process aizņems vien pāris minūtes. 
 
 Mozello piedāvā izveidot **bezmaksas mājaslapu** ar Mozello adresi (_adrese.mozello.lv_) un atsauci uz Mozello izveides rīku lapas apakšā. _Premium_ versija, kurā nav atsauce uz Mozello un ar kuru iespējams izmantot savu domēnvārdu (_adrese.lv_) un ievietot līdz 30 produktiem interneta veikalā, maksā **6€/mēnesī**. _Premium Plus_ plāns par **12€/mēnesī** ļaus ievietot neierobežotu produktu daudzumu un pieņemt maksājumus no Latvijas internetbankām.
