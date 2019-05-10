@@ -19,12 +19,13 @@ export const IndexPageTemplate = ({
     <div
       className="full-width-image margin-top-0"
       style={{
-        backgroundImage: `url(${
+        background: `#4cecff`,
+        borderBottom: `4px solid black`
+         /* backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
         backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
-        borderBottom: `2px solid black`
+        backgroundAttachment: `fixed`, */
       }}
     >
       <div
@@ -57,9 +58,11 @@ export const IndexPageTemplate = ({
             backgroundColor: '#72b0c0',
             color: 'black',
             lineHeight: '1',
-            padding: '6px 14px',
+            padding: '6px 14px 6px 19px',
             textAlign: 'center',
             border: '3px solid black',
+            boxShadow: '5px 5px 0 black',
+            marginLeft: '-5px'
           }}
         >
           {subheading}

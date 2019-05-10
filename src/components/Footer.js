@@ -17,12 +17,12 @@ const Footer = class extends React.Component {
               src={logo}
               alt="kā.lv"
               rel="noopener"
-              style={{ width: '14em', height: 'auto', boxShadow: '8px 8px 0 black', marginBottom: '10px' }}
+              style={{ width: '5em', height: 'auto', boxShadow: '8px 8px 0 black', marginBottom: '10px' }}
             />
           </a>
           <p>
-            &copy; 2019 <br />
-            <a href="http://jā.com" target="_blank">Nepieciešama mājaslapa?</a>
+            &copy; 2019 <a href="http://armn.me" target="_blank">Armands Leimanis</a> <br />
+            <a href="http://jā.com" target="_blank">Nepieciešama mājaslapa? Izveido to saviem spēkiem!</a>
           </p>
         </div>
         { /*

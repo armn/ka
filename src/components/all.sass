@@ -32,7 +32,7 @@ $black: #2b2523
 // Helper Classes
 .full-width-image-container
   width: 100vw
-  height: 400px
+  height: 250px
   position: relative
   left: 50%
   right: 50%
@@ -45,7 +45,7 @@ $black: #2b2523
 
 .full-width-image
     width: 100vw
-    height: 400px
+    height: 250px
     background-size: cover
     background-position: bottom
     display: flex
@@ -84,7 +84,7 @@ $black: #2b2523
   margin-top: 0 !important
 
 .navbar
-  border-bottom: 2px solid black
+  border-bottom: 4px solid black
 
 .navbar-item .icon
   color: $primary
@@ -117,10 +117,16 @@ $black: #2b2523
   &:hover
     box-shadow: 6px 6px 0 black
 footer.footer
-  background: rgba(43, 37, 35, 0.1)
-  border-top: 2px solid black
+  background: #ff3f00
+  border-top: 4px solid black
   margin-top: auto
-  padding: 3rem 0rem 1rem
+  padding: 1.3rem 0rem 1rem
+  color: black
+  p a
+    color: black
+    transition: all 0.15s ease-in-out
+    &:hover
+      border-bottom: 2px solid black
   //background-color: transparent
 
 .navbar-burger
@@ -208,6 +214,7 @@ $menu-label-color: $white-ter
   border-radius: 0
   border: 2px solid black
   box-shadow: 4px 4px 0 $primary
+  word-break: break-word
 
 // blog images
 .blog-list-item .featured-thumbnail > div
